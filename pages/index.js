@@ -9,8 +9,8 @@ function getConfig(){
   const params = new URLSearchParams(location.search);
 
   return [
-    params.get("address"),
-    params.get("amount"),
+    params.get("address") || "6moute4cAhkmhA5VGrmhFB3cbZJRCwSoxHe8ZEiPAQRi",
+    params.get("amount") || 0.01,
   ]
 }
 
