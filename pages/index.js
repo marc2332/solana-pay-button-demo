@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p>Let's try Solana Pay with Reactor Wallet 😄</p>
+        <p>Try Solana Pay 😄</p>
         <SolanaPayButton uri={`solana:${address}?amount=${amount}`}>Pay with</SolanaPayButton>
       </main>
     </div>
