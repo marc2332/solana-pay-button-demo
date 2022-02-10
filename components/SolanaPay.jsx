@@ -6,7 +6,7 @@ export default function SolanaPayButton({ children, uri }) {
         <a href={uri}>
             <button className={styles.solanaPayButton}>
                 {children}
-                <Image  width={85} height={0} src="/solana-pay.svg"></Image>
+                <Image width={85} height={24} src="/solana-pay.svg"></Image>
             </button>
         </a>
     )
