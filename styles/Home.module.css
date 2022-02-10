@@ -14,16 +14,12 @@
   background: black;
   border-radius: 4px;
   color: white;
-  padding: 14px 19px;
+  padding: 14px 10px 14px 19px;
   font-size: 20px;
   display: flex;
   justify-content: center;
   font-weight: 500;
   transition: background 0.1s;
-}
-
-.solanaPayButton > img {
-  margin-left: 8px;
 }
 
 .solanaPayButton:hover:not(:focus) {
